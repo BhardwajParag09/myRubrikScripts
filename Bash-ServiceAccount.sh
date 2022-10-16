@@ -9,7 +9,7 @@
 # jq is required to parse curl response. You can usually get the jq utility in the add on
 # repository of most linux distros.
 #
-# USAGE: ./Bash-ServiceAccount.sh -c 192.168.45.5 -serviceAccountId myServiceAccountID -secret SecretKeyOfTheServiceAccountUser
+# USAGE: ./Bash-ServiceAccount.sh -c 192.168.1.1 -serviceAccountId myServiceAccountID -secret SecretKeyOfTheServiceAccountUser
 ########################################################################################################
 
 #Modify the following parameters
