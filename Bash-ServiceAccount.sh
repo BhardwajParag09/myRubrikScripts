@@ -1,4 +1,17 @@
 #!/bin/bash
+
+########################################################################################################
+# Title:    Bash-ServiceAccount.sh
+# Summary:  Authenticate BASH using Rubrik service account user.
+# Author:   Parag Bhardwaj
+#
+# REQUIREMENTS:
+# jq is required to parse curl response. You can usually get the jq utility in the add on
+# repository of most linux distros.
+#
+# USAGE: ./Bash-ServiceAccount.sh -c 192.168.45.5 -serviceAccountId myServiceAccountID -secret SecretKeyOfTheServiceAccountUser
+########################################################################################################
+
 #Modify the following parameters
 c="X.X.X.X"
 serviceAccountId="User:::5741XXXXXXad6"
