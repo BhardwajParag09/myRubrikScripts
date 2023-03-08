@@ -1,0 +1,3 @@
+mutation InviteUserMutation {
+  createUser(email: "abc@domain.com", roleIds: "00000000-0000-0000-0000-000000000000")
+}
