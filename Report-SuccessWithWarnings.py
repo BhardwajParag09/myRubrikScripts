@@ -1,5 +1,12 @@
 
 """ 
+
+########################################################################################################
+# Title:    Report-SuccessWithWarnings.py
+#Author: Parag Bhardwaj (parag.bhardwaj@rubrik.com)
+# USAGE: python3 Report-SuccessWithWarnings.py
+########################################################################################################
+
 Python Script to generate a report for the past 24 hours
 define: 
     cluster - Rubrik CDM IP or Cluster name
