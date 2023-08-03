@@ -1,4 +1,4 @@
-$Token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5ZWEwMmI5Mi1lMjUyLTRiYzMtYjA1Ny0yMzUxYWY1NGRmY2MiLCJpc01mYVJlbWVtYmVyVG9rZW4iOmZhbHNlLCJpc3MiOiI5OTc1YTVmMy1iMzdiLTRhNzYtOGQ3Yi04OWYzZmYzMWM1ZGMiLCJpYXQiOjE2NzA5Mjg1NzIsImp0aSI6ImQ4MjM0ZmE0LWVlMGYtNDAxNi04ZjM2LWM0NGNlMGVlYzUxNCJ9.l7kaPK0riSaAXbj3Z5iFcJNULxMcgW4c7Dn-kIfXrz8"
-Connect-Rubrik 10.38.200.245 -Token $Token
+$Token="eyJ0rz8"
+Connect-Rubrik 10.X.X.X -Token $Token
 $version = Get-RubrikVersion
 Write-Output "The cluster version is" $version
